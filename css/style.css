@@ -1,0 +1,43 @@
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+body {
+    margin:0;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    margin-left: 50%;
+    margin-right: 10px;
+    padding: 1%;
+}
+li {
+    margin: 10px;
+}
+
+.content {
+    height: 200px;
+    margin: 10%;
+}
+button {
+    border: none;
+    font-weight: bolder;
+    background-color: #E8D7C6;
+    padding: 10px;
+}
+footer{
+    background-color: #99D9D9;
+    text-align: center;
+    color: white;
+}
