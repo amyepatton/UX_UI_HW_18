@@ -26,7 +26,7 @@ li {
     margin: 10px;
 }
 
-.content {
+.hero {
     height: 200px;
     margin: 10%;
 }
@@ -36,6 +36,14 @@ button {
     background-color: #E8D7C6;
     padding: 10px;
 }
+
+.mywork {
+    margin: 10%;
+}
+.workGrid {
+    display: grid;
+}
+
 footer{
     background-color: #99D9D9;
     text-align: center;
