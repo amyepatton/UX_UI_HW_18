@@ -3,6 +3,14 @@ header {
     width: 100%;
 }
 
+h1 {
+    font-family: 'Cormorant Garamond';font-size: 36px;
+}
+
+p {
+    font-family: 'Open Sans';font-size: 18px;
+}
+
 body {
     margin:0;
 }
@@ -17,11 +25,13 @@ body {
     padding: 1%;
     text-align: center;
 }
+
 nav {
     margin-left: 50%;
     margin-right: 10px;
     padding: 1%;
 }
+
 li {
     margin: 10px;
 }
@@ -30,6 +40,7 @@ li {
     height: 200px;
     margin: 10%;
 }
+
 button {
     border: none;
     font-weight: bolder;
@@ -40,12 +51,33 @@ button {
 .mywork {
     margin: 10%;
 }
-.workGrid {
-    display: grid;
+
+.flexContainer {
+    display: flex;
+    border: solid 1px black;
+}
+
+.workImage {
+    border-right: solid 1px black;
+}
+
+.tags {
+    display: inline-block;
+}
+
+ul {
+    padding: 0px;
 }
 
 footer{
     background-color: #99D9D9;
     text-align: center;
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    div {
+        display: flex;
+        flex-direction: column;
+      }
 }
